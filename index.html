@@ -6,7 +6,7 @@
     <title>Rinterio</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-gray-100 max-w-screen-2xl mx-auto">
     <header>
       <nav>
         <div class="nav-logo"></div>
@@ -14,12 +14,63 @@
       </nav>
     </header>
     <main>
-      <div class="banar-section">
-        <div class="banar-img">
-          <img src="assets/banner.png" alt="" />
-        </div>
+      <div class="banar-img flex justify-center">
+        <img src="assets/banner.png" alt="" />
+      </div>
+      <div class="banar-heading text-center text-5xl font-bold">
         <h1>A barn house of this design has a striking appearance</h1>
       </div>
+      <div class="banar-description text-center">
+        <p>
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light
+        </p>
+      </div>
+      <div class="flex justify-center">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        >
+          View Details
+        </button>
+      </div>
+      <section class="about-container">
+        <div>
+          <img class="bg-[url('/assets/Vector.png')]" src="" alt="" />
+        </div>
+        <div class="about-card-container flex">
+          <div class="about-left">
+            <button>About us</button>
+            <header>
+              <h1>We design thoughtful, liveable spaces</h1>
+            </header>
+            <p>
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <div class="about-card w-140 h-34 bg-white rounded-2xl">
+              <img src="assets/commercial.png" alt="" />
+              <h3>Commercial</h3>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+            <div class="about-card w-140 h-34 bg-white rounded-2xl">
+              <img src="assets/residential.png" alt="" />
+              <h3>Residential</h3>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+            </div>
+          </div>
+          <div class="about-right">
+            <img src="assets/Rectangle.png" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
